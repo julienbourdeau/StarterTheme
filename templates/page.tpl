@@ -20,13 +20,13 @@
     {/block}
     {block name="page_content_after"}{/block}
 
-    {block name="page_content_before"}{/block}
-    {block name="page_content"}
+    {block name="page_footer_before"}{/block}
+    {block name="page_footer"}
       <footer class="page_footer">
         <!-- Footer content -->
       </footer>
     {/block}
-    {block name="page_content_after"}{/block}
+    {block name="page_footer_after"}{/block}
 
   </section>
 

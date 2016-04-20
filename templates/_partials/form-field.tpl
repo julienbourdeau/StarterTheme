@@ -42,6 +42,7 @@
             name="{$field.name}"
             type="{$field.type}"
             value="{$field.value}"
+            {if $field.maxLength}maxlength="{$field.maxLength}"{/if}
     >
   </label>
 {/if}

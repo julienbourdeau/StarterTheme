@@ -11,9 +11,7 @@
 {block name='page_content_container'}
   <section id="content" class="page-content page-address">
     <div class="address-form">
-      <form method="POST" action="{$action}">
-        {render template="customer/_partials/address-form.tpl" ui=$address_form}
-      </form>
+      {render template="customer/_partials/address-form.tpl" ui=$address_form}
     </div>
   </section>
 {/block}
